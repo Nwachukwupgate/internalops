@@ -20,7 +20,7 @@ const Hero = () => {
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                   Revolutionize how your team handles requests, approvals,
                   and circulars with a powerful, role-based system.
-                  Built on top technologies, it's fast, intuitive,
+                  Built on top technologies, it&apos;s fast, intuitive,
                   and ready to scale with your organization.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
