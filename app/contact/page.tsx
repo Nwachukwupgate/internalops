@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     title: "Contact Internalops Pro – Let's Simplify Your Internal Workflows",
     description:
       "Reach out to our team for support, inquiries, demos, or feedback. We're ready to help your organization streamline its operations.",
-    url: "https://yourdomain.com/contact",
+    url: "https://www.internalops.pro/contact",
     type: "website",
     images: [
       {
-        url: "https://yourdomain.com/og-contact.jpg", // Replace with your own OG image
+        url: "https://www.internalops.pro/_next/image?url=%2Fimages%2Flogo%2Flogo-transparent.jpg&w=256&q=75", // Replace with your own OG image
         width: 1200,
         height: 630,
         alt: "Contact Internalops Pro",

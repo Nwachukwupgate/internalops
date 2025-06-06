@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     title: "Internalops Pro Blog – Boost Your Team’s Operational Efficiency",
     description:
       "Stay updated with best practices, case studies, and articles on streamlining internal processes, managing requests, and optimizing organizational workflows.",
-    url: "https://yourdomain.com/blog",
+    url: "https://www.internalops.pro/blog",
     type: "website",
     images: [
       {
-        url: "https://yourdomain.com/og-blog.jpg", // Replace with your blog OG image
+        url: "https://www.internalops.pro/_next/image?url=%2Fimages%2Flogo%2Flogo-transparent.jpg&w=256&q=75", // Replace with your blog OG image
         width: 1200,
         height: 630,
         alt: "Internalops Pro Blog Preview",

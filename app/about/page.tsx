@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     title: "Internalops Pro – Smart Internal Ops for Modern Teams",
     description:
       "Empower your organization with Internalops Pro – a powerful platform to manage requests, circulars, and approvals with ease.",
-    url: "https://yourdomain.com/about", // Replace with your actual domain
+    url: "https://www.internalops.pro/about", // Replace with your actual domain
     type: "website",
     images: [
       {
-        url: "https://yourdomain.com/og-image.jpg", // Replace with actual image path
+        url: "https://www.internalops.pro/_next/image?url=%2Fimages%2Flogo%2Flogo-transparent.jpg&w=256&q=75", // Replace with actual image path
         width: 1200,
         height: 630,
         alt: "Internalops Pro Dashboard Preview",

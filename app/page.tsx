@@ -28,12 +28,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Internalop Pro Team" }],
   creator: "Internalop",
-  metadataBase: new URL("https://internalop.com"), // Update if needed
+  metadataBase: new URL("https://www.internalops.pro/"), // Update if needed
   openGraph: {
     title: "Internalop Pro  Streamlined Internal Requests and Circulars",
     description:
       "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
-    url: "https://internalop.com", // Update with real domain
+    url: "https://www.internalops.pro/", // Update with real domain
     siteName: "Internalop Pro",
     locale: "en_US",
     type: "website",
