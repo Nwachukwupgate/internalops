@@ -6,6 +6,8 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import Script from 'next/script';
+import Analytics from "./analytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,11 +25,28 @@ export default function RootLayout({
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-0XMQ4FYKYG`}
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-0XMQ4FYKYG');
+            `,
+          }}
+        />
         <Providers>
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
+          <Analytics />
         </Providers>
       </body>
     </html>
