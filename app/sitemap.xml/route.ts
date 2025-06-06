@@ -1,5 +1,5 @@
 export async function GET(): Promise<Response> {
-  const baseUrl = "https://internalops.pro";
+  const baseUrl = "https://www.internalops.pro";
 
   const routes = [
     "",
