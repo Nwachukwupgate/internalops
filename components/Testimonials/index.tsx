@@ -5,8 +5,8 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Olawale Salami",
-    designation: "CTO @God Made Homes",
+    name: "Viktor Ivanenko",
+    designation: "Director of Strategy @Baltic Property Group",
     content:
       "Before Internalops Pro, our request approvals dragged for days — sometimes weeks. Now, with role-based routing and instant notifications, we move from request to approval in hours. It has completely transformed how our teams work across departments.",
     image: "/images/testimonials/auth-01.png",

@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us | Internalops Pro – Streamline Internal Operations",
   description:
-    "Get in touch with the Internalops Pro team. Whether you have questions about features, pricing, support, or partnerships, we're here to help you streamline internal workflows and approvals.",
+    "Get in touch with the Internalops Pro team. Whether you have questions about features, pricing, support, or partnerships, Internalops Pro is here to help you streamline internal workflows and approvals.",
   keywords: [
     "contact Internalops Pro",
     "Internalops Pro support",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Internalops Pro – Let's Simplify Your Internal Workflows",
     description:
-      "Reach out to our team for support, inquiries, demos, or feedback. We're ready to help your organization streamline its operations.",
+      "Reach out to our team for support, inquiries, demos, or feedback. Internalops Pro is ready to help your organization streamline its operations.",
     url: "https://www.internalops.pro/contact",
     type: "website",
     images: [
@@ -47,7 +47,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contact Page"
-        description="Get in touch with the Internalops Pro team. Whether you have questions about features, pricing, support, or partnerships, we're here to help you streamline internal workflows and approvals."
+        description="Get in touch with the Internalops Pro team. Whether you have questions about features, pricing, support, or partnerships, Internalops Pro is here to help you streamline internal workflows and approvals."
       />
 
       <Contact />
