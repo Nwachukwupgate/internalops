@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="Why should my company use Internalops Pro, will it help out my operations or it's one of this fancy app that doesn't get used?"
+            title="What InternalOps Pro Helps You Do"
+            paragraph="InternalOps Pro is not just another workflow app. It’s built to solve real operational bottlenecks and eliminate internal confusion. Here’s how it makes your team more efficient."
             center
           />
 
