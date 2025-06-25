@@ -14,14 +14,14 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Simplify Staff Workflows. Centralize Communication.
-                </h1>
+                <div className="md:max-w-[85%] flex flex-column items-center justify-center mx-auto max-w-[90%]">
+                  <h1 className="mb-5 text-3xl font-bold leading-[1.2] text-black dark:text-white sm:text-4xl sm:leading-[1.2] md:text-5xl md:leading-[1.2]">
+                    Control internal chaos. Get work done faster.
+                  </h1>
+                </div>
+                
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Revolutionize how your team handles requests, approvals,
-                  and circulars with a powerful, role-based system.
-                  Built on top technologies, it&apos;s fast, intuitive,
-                  and ready to scale with your organization.
+                  InternalOps Pro is your all-in-one system for managing staff requests, approvals, circulars, inter-department communication all tracked, role-verified, and 100% secure. No more email chains. No more confusion. Just clear, accountable workflows your team can trust.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <p

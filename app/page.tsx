@@ -12,9 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Internalop Pro – Request and Circular Management System",
+  title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
   description:
-    "Internalop Pro is a robust internal operations platform for managing staff requests, circulars, role-based approvals, and department workflows. Designed to streamline communication and approvals within enterprise environments.",
+    "Internalop Pro is a robust internal operations platform for managing staff requests, circulars, secured role-based approvals, and department workflows. Designed to streamline communication and approvals within enterprise environments.",
   keywords: [
     "Internal operations software",
     "Request management system",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   creator: "Internalop",
   metadataBase: new URL("https://www.internalops.pro/"), // Update if needed
   openGraph: {
-    title: "Internalop Pro  Streamlined Internal Requests and Circulars",
+    title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
     description:
       "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
     url: "https://www.internalops.pro/", // Update with real domain
