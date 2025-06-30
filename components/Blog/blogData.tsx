@@ -13,7 +13,7 @@ const blogData: Blog[] = [
       designation: "Productivity Coach",
     },
     tags: ["workflow"],
-    publishDate: "June 2025",
+    publishDate: "30 March 2025",
     slug: "How-Our-App-Transforms-Your-Workflow-Efficiency",
     blogBody: `
       <div
@@ -177,7 +177,7 @@ const blogData: Blog[] = [
       designation: "Remote Work Advocate",
     },
     tags: ["remote work"],
-    publishDate: "June 2025",
+    publishDate: "7 May 2025",
     slug: "5-Key-Features-That-Make-Our-Platform-Perfect-for-Remote-Teams",
     blogBody: `
       <p style="font-size:16px; line-height:1.6; color:#333; max-width:700px; margin-bottom:1rem;">
@@ -280,7 +280,7 @@ const blogData: Blog[] = [
       designation: "Digital Strategist",
     },
     tags: ["business growth"],
-    publishDate: "June 2025",
+    publishDate: "24 June 2025",
     slug: "Why-Digital-Transformation-Starts-With-the-Right-Tools",
     blogBody: `
       <p style="font-size:16px; line-height:1.6; color:#333; max-width:700px; margin-bottom:1rem;">
