@@ -57,18 +57,18 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-transparent.jpg"
+                  src="/images/logo/logo-transparentrec.jpg"
                   alt="logo"
-                  width={100}
+                  width={50}
                   height={10}
-                  className="w-full dark:hidden"
+                  className=" dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo-transparent.jpg"
+                  src="/images/logo/logo-transparentrec.jpg"
                   alt="logo"
-                  width={140}
+                  width={50}
                   height={30}
-                  className="hidden w-full dark:block"
+                  className="hidden dark:block"
                 />
               </Link>
             </div>
