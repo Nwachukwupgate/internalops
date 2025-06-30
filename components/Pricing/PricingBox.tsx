@@ -1,3 +1,5 @@
+import { contactStore } from "@/stores/contactStore";
+
 const PricingBox = (props: {
   price: string;
   duration?: string;
@@ -26,6 +28,8 @@ const PricingBox = (props: {
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
           <button 
             onClick={() => {
+              contactStore.packageName = packageName;
+              contactStore.price = price;
               const contactSection = document.getElementById("contact");
               contactSection?.scrollIntoView({ behavior: "smooth" });
             }}

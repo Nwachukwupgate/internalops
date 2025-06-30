@@ -1,6 +1,12 @@
+"use client";
+
+import { useSnapshot } from "valtio";
+import { contactStore } from "@/stores/contactStore";
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
+  const { packageName, price } = useSnapshot(contactStore);
+
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -22,6 +28,35 @@ const Contact = () => {
                 method="POST"
               >
                 <div className="-mx-4 flex flex-wrap">
+                  {packageName && (
+                    <>
+                      <div className="mb-6 w-full px-4 md:w-1/2">
+                        <label className="mb-2 block text-sm font-medium text-dark">
+                          Package Selected
+                        </label>
+                        <input
+                          type="text"
+                          name="package"
+                          value={packageName}
+                          readOnly
+                          className="w-full rounded border border-body-color border-opacity-40 bg-white px-6 py-3 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none"
+                        />
+                      </div>
+
+                      <div className="mb-6 w-full px-4 md:w-1/2">
+                        <label className="mb-2 block text-sm font-medium text-dark">
+                          Price
+                        </label>
+                        <input
+                          type="text"
+                          name="price"
+                          value={price}
+                          readOnly
+                          className="w-full rounded border border-body-color border-opacity-40 bg-white px-6 py-3 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none"
+                        />
+                      </div>
+                    </>
+                  )}
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
@@ -72,7 +107,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-4">
                     <button className="shadow-submit dark:shadow-submit-dark rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90" type="submit">
-                      Submit Ticket
+                      Submit
                     </button>
                   </div>
                 </div>

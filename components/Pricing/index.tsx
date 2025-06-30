@@ -33,9 +33,9 @@ const Pricing = () => {
   if (isAfricanVisitor === null) return <p>Loading pricing...</p>;
 
   const prices = {
-    lite: isAfricanVisitor ? "₦2,500,000" : "$1,800",
-    basic: isAfricanVisitor ? "₦4,000,000" : "$3,500",
-    plus: isAfricanVisitor ? "₦5,500,000" : "$5,000"
+    lite: isAfricanVisitor ? "₦3,500,000" : "$3,899",
+    basic: isAfricanVisitor ? "₦5,000,000" : "$5,599",
+    plus: isAfricanVisitor ? "₦7,500,000" : "$9,999"
   };
 
   return (
