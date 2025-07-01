@@ -21,26 +21,29 @@ export const metadata: Metadata = {
     "digital transformation for companies",
   ],
   openGraph: {
-    title: "Internalops Pro Blog – Boost Your Team’s Operational Efficiency",
+    title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
     description:
-      "Stay updated with best practices, case studies, and articles on streamlining internal processes, managing requests, and optimizing organizational workflows.",
-    url: "https://www.internalops.pro/blog",
+      "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
+    url: "https://www.internalops.pro/about",
     type: "website",
     images: [
       {
-        url: "https://www.internalops.pro/_next/image?url=%2Fimages%2Flogo%2Flogo-transparent.jpg&w=256&q=75", // Replace with your blog OG image
+        url: "https://opengraph.b-cdn.net/production/images/5e634882-6c1c-42e7-b922-95e1a805ff88.png?token=QTIz1ZkR9FBMgD9Tb9wYGaScLKmtF7pDbs7fgXtYBo8&height=630&width=1200&expires=33287389123",
         width: 1200,
         height: 630,
-        alt: "Internalops Pro Blog Preview",
+        alt: "InternalOps Pro Dashboard Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Internalops Pro Blog",
+    title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
     description:
-      "Explore articles and resources on improving internal operations, digital transformation, and workflow optimization for modern organizations.",
-    images: ["https://yourdomain.com/twitter-blog.jpg"], // Replace with your blog OG image
+      "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
+    site: "@Internalop90341", // Optional: replace with actual Twitter handle if you have one
+    images: [
+      "https://opengraph.b-cdn.net/production/images/5e634882-6c1c-42e7-b922-95e1a805ff88.png?token=QTIz1ZkR9FBMgD9Tb9wYGaScLKmtF7pDbs7fgXtYBo8&height=630&width=1200&expires=33287389123",
+    ],
   },
 };
 

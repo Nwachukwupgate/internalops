@@ -18,26 +18,29 @@ export const metadata: Metadata = {
     "request management system support",
   ],
   openGraph: {
-    title: "Contact Internalops Pro – Let's Simplify Your Internal Workflows",
+    title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
     description:
-      "Reach out to our team for support, inquiries, demos, or feedback. Internalops Pro is ready to help your organization streamline its operations.",
-    url: "https://www.internalops.pro/contact",
+      "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
+    url: "https://www.internalops.pro/about",
     type: "website",
     images: [
       {
-        url: "https://www.internalops.pro/_next/image?url=%2Fimages%2Flogo%2Flogo-transparent.jpg&w=256&q=75", // Replace with your own OG image
+        url: "https://opengraph.b-cdn.net/production/images/5e634882-6c1c-42e7-b922-95e1a805ff88.png?token=QTIz1ZkR9FBMgD9Tb9wYGaScLKmtF7pDbs7fgXtYBo8&height=630&width=1200&expires=33287389123",
         width: 1200,
         height: 630,
-        alt: "Contact Internalops Pro",
+        alt: "InternalOps Pro Dashboard Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us | Internalops Pro",
+    title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
     description:
-      "Have questions about Internalops Pro? Our team is here to support your organization's internal operations and workflow needs.",
-    images: ["https://yourdomain.com/twitter-contact.jpg"], // Replace with your image
+      "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
+    site: "@Internalop90341", // Optional: replace with actual Twitter handle if you have one
+    images: [
+      "https://opengraph.b-cdn.net/production/images/5e634882-6c1c-42e7-b922-95e1a805ff88.png?token=QTIz1ZkR9FBMgD9Tb9wYGaScLKmtF7pDbs7fgXtYBo8&height=630&width=1200&expires=33287389123",
+    ],
   },
 };
 

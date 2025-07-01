@@ -28,13 +28,21 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Internalop Pro Team" }],
   creator: "Internalop",
-  metadataBase: new URL("https://www.internalops.pro/"), // Update if needed
+  metadataBase: new URL("https://www.internalops.pro/"),
   openGraph: {
     title: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
     description:
       "Streamline internal communication, request approvals, and circular broadcasting with Internalop Pro — built for real estate and enterprise teams.",
-    url: "https://www.internalops.pro/", // Update with real domain
+    url: "https://www.internalops.pro",
     siteName: "Internalop Pro",
+    images: [
+      {
+        url: "https://opengraph.b-cdn.net/production/images/5e634882-6c1c-42e7-b922-95e1a805ff88.png?token=QTIz1ZkR9FBMgD9Tb9wYGaScLKmtF7pDbs7fgXtYBo8&height=630&width=1200&expires=33287389123",
+        width: 1200,
+        height: 630,
+        alt: "InternalOps Pro – Simplify Staff Requests, Secure Approvals, and Eliminate Email Chaos",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -43,7 +51,10 @@ export const metadata: Metadata = {
     title: "Internalop Pro  Internal Request & Circular System",
     description:
       "Manage internal requests, circulars, and role-based workflows efficiently with Internalop Pro.",
-    creator: "@treyp99", // Replace if you have a Twitter/X handle
+    creator: "@treyp99",
+    images: [
+      "https://opengraph.b-cdn.net/production/images/5e634882-6c1c-42e7-b922-95e1a805ff88.png?token=QTIz1ZkR9FBMgD9Tb9wYGaScLKmtF7pDbs7fgXtYBo8&height=630&width=1200&expires=33287389123",
+    ],
   },
 };
 
