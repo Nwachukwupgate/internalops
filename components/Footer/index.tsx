@@ -90,6 +90,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
+                <p className="mt-4">Email: contact@internalops.pro</p>
               </div>
             </div>
 
