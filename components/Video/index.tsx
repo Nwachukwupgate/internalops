@@ -50,11 +50,11 @@ const Video = () => {
       </div>
 
       <ModalVideo
-        channel="vimeo"
+        channel="youtube"
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="1097866335"
+        videoId="SaaTpl_u6K4"
         onClose={() => setOpen(false)}
       />
 
