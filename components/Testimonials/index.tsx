@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Ola",
     designation: "DirectHeador of ICT @God Made Homes",
     content:
-      "Before Internalops Pro, our request approvals dragged for days — sometimes weeks. Now, with role-based routing and instant notifications, we move from request to approval in hours. It has completely transformed how our teams work across departments.",
+      "Before Internalops Pro, our request approvals dragged for days sometimes weeks. Now, with role-based routing and instant notifications, we move from request to approval in hours. It has completely transformed how our teams work across departments.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,16 @@ const testimonialData: Testimonial[] = [
     name: "Martin Boehm",
     designation: "CEO @Vqualis",
     content:
-      "The built-in approval flow and request history tracking helped us finally get visibility into where things get stuck. Every request is documented and traceable, which has significantly improved accountability among stakeholders.",
+      "The built-in approval flow and request history tracking helped us finally get visibility into where things get stuck. Every request is documented and traceable, which will significantly improve accountability among stakeholders.",
+    image: "/images/testimonials/auth-02.png",
+    star: 5,
+  },
+  {
+    id: 3,
+    name: "Ken",
+    designation: "CEO @Hex",
+    content:
+      "The circular feature has been a game-changer it lets us share updates across departments instantly, without messy emails or missed messages. Everyone stays aligned. We're also really excited about the upcoming KPI feature it’ll help us track team performance without the need for extra tools or micromanagement.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   }
