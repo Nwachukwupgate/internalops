@@ -14,8 +14,8 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 2,
-    name: "James Whitaker",
-    designation: "Finance Director @Brookfield & Co",
+    name: "Martin Boehm",
+    designation: "CEO @Vqualis",
     content:
       "The built-in approval flow and request history tracking helped us finally get visibility into where things get stuck. Every request is documented and traceable, which has significantly improved accountability among stakeholders.",
     image: "/images/testimonials/auth-02.png",
