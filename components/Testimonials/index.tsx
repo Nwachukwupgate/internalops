@@ -5,8 +5,8 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Viktor Ivanenko",
-    designation: "Director of Strategy @Baltic Property Group",
+    name: "Ola",
+    designation: "DirectHeador of ICT @God Made Homes",
     content:
       "Before Internalops Pro, our request approvals dragged for days — sometimes weeks. Now, with role-based routing and instant notifications, we move from request to approval in hours. It has completely transformed how our teams work across departments.",
     image: "/images/testimonials/auth-01.png",
@@ -20,16 +20,7 @@ const testimonialData: Testimonial[] = [
       "The built-in approval flow and request history tracking helped us finally get visibility into where things get stuck. Every request is documented and traceable, which has significantly improved accountability among stakeholders.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
-  },
-  {
-    id: 3,
-    name: "Claire Reynolds",
-    designation: "Administrative Manager @Northgate Energy",
-    content:
-      "Sending circulars used to mean chasing email threads. With Internalops Pro, I can send updates to all staff or specific departments in seconds. It’s intuitive, fast, and keeps everyone on the same page.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
-  },
+  }
 ];
 
 const Testimonials = () => {
